@@ -23,12 +23,13 @@
 		18A3C4F8282016FF00F53D89 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 18A3C4F7282016FF00F53D89 /* README.MD */; };
 		18A3C5042820594B00F53D89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A3C5062820594B00F53D89 /* InfoPlist.strings */; };
 		18A3C50928205AE600F53D89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A3C50B28205AE600F53D89 /* Localizable.strings */; };
-		18A3C50E282109DC00F53D89 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3C50D282109DC00F53D89 /* TabBarController.swift */; };
 		18A3C51028210EDF00F53D89 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3C50F28210EDF00F53D89 /* PostVC.swift */; };
 		18A3C51228211AFE00F53D89 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3C51128211AFE00F53D89 /* Extensions.swift */; };
 		18A3C5142822458E00F53D89 /* NoteEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3C5132822458E00F53D89 /* NoteEditVC.swift */; };
 		18A3C5162822595400F53D89 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3C5152822595300F53D89 /* PhotoCell.swift */; };
 		18A3C5182822C3F700F53D89 /* PhotoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3C5172822C3F700F53D89 /* PhotoFooter.swift */; };
+		82AC44DC282598FD00FB1474 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC44DB282598FD00FB1474 /* TabBarController.swift */; };
+		82AC44DE2827FDBD00FB1474 /*  NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC44DD2827FDBD00FB1474 /*  NoteEditVC-CollectionView.swift */; };
 		E4D03DCD9E0349BE992CFC98 /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60801C520A27052252ADDC00 /* Pods_LittlePink.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +54,6 @@
 		18A3C4FC28203C5200F53D89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		18A3C5052820594B00F53D89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		18A3C50A28205AE600F53D89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		18A3C50D282109DC00F53D89 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = /Users/apple/Desktop/LittlePink/LittlePink/TabBarController.swift; sourceTree = "<absolute>"; };
 		18A3C50F28210EDF00F53D89 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		18A3C51128211AFE00F53D89 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		18A3C5132822458E00F53D89 /* NoteEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVC.swift; sourceTree = "<group>"; };
@@ -63,6 +63,8 @@
 		3CABE3E62D3B76E2E6AB873B /* Pods-LittlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.release.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.release.xcconfig"; sourceTree = "<group>"; };
 		5045D9CBD832A519EAD71F3D /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
 		60801C520A27052252ADDC00 /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AC44DB282598FD00FB1474 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		82AC44DD2827FDBD00FB1474 /*  NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,7 @@
 				18A3C4CE281E982600F53D89 /* AppDelegate.swift */,
 				18A3C4D0281E982600F53D89 /* SceneDelegate.swift */,
 				18A3C4D4281E982600F53D89 /* Main.storyboard */,
-				18A3C50D282109DC00F53D89 /* TabBarController.swift */,
+				82AC44DB282598FD00FB1474 /* TabBarController.swift */,
 				18A3C5192822CCCF00F53D89 /* NoteEdit */,
 				18A3C4EF281F0F2D00F53D89 /* Home */,
 				18A3C4F52820164900F53D89 /* Waterfull */,
@@ -162,6 +164,7 @@
 				18A3C5132822458E00F53D89 /* NoteEditVC.swift */,
 				18A3C5152822595300F53D89 /* PhotoCell.swift */,
 				18A3C5172822C3F700F53D89 /* PhotoFooter.swift */,
+				82AC44DD2827FDBD00FB1474 /*  NoteEditVC-CollectionView.swift */,
 			);
 			path = NoteEdit;
 			sourceTree = "<group>";
@@ -304,10 +307,11 @@
 			files = (
 				18A3C4F1281FF87E00F53D89 /* WaterfullVC.swift in Sources */,
 				18A3C4EC281F0BBB00F53D89 /* NearByVC.swift in Sources */,
-				18A3C50E282109DC00F53D89 /* TabBarController.swift in Sources */,
 				18A3C4F3281FFD1000F53D89 /* WaterfullCell.swift in Sources */,
 				18A3C5142822458E00F53D89 /* NoteEditVC.swift in Sources */,
+				82AC44DE2827FDBD00FB1474 /*  NoteEditVC-CollectionView.swift in Sources */,
 				18A3C5182822C3F700F53D89 /* PhotoFooter.swift in Sources */,
+				82AC44DC282598FD00FB1474 /* TabBarController.swift in Sources */,
 				18A3C5162822595400F53D89 /* PhotoCell.swift in Sources */,
 				18A3C4CF281E982600F53D89 /* AppDelegate.swift in Sources */,
 				18A3C4E6281F073800F53D89 /* HomeVC.swift in Sources */,
