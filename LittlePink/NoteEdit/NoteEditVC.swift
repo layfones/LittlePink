@@ -39,6 +39,7 @@ class NoteEditVC: UIViewController {
         super.viewDidLoad()
     
         hideKeyboardWhenTappedAround()
+        titleCountLabel.text = "\(kMaxNoteTitleCount)"
         // Do any additional setup after loading the view.
     }
 
@@ -56,8 +57,16 @@ class NoteEditVC: UIViewController {
 }
 
 extension NoteEditVC: UITextFieldDelegate {
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//        textField.resignFirstResponder()
+//        return true
+//    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if range.location >= kMaxNoteTitleCount || (textField.unwrappedText.count + string.count) > kMaxNoteTitleCount {
+            showTextHUD("标题最多输入\(kMaxNoteTitleCount)个字符")
+            return false
+        }
         return true
     }
 }
